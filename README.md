@@ -2,10 +2,9 @@
 
 __A basic Vue 3 app starter, with a zero-build developer-experience.__
 
-▶&nbsp; __Version:__ 0.0.1  
-▶&nbsp; __NPM:__ <https://www.npmjs.com/package/@0bdx/starter-vue-basic>  
-▶&nbsp; __Repo:__ <https://gitlab.com/0bdx/starter-vue-basic>  
-▶&nbsp; __Homepage:__ <https://0bdx.com/starter-vue-basic>
+∅&nbsp; __Version:__ 0.0.1  
+∅&nbsp; __Repo:__ <https://github.com/0bdx/starter-vue-basic>  
+∅&nbsp; __Homepage:__ <https://0bdx.com/starter-vue-basic>
 
 @TODO add an overview
 
