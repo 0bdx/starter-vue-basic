@@ -1,0 +1,20 @@
+{
+  "name": "starter-vue-basic",
+  "version": "0.0.1",
+  "description": "A basic Vue 3 app starter, with a zero-build developer-experience",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0bdx/starter-vue-basic.git"
+  },
+  "keywords": [],
+  "author": "0bdx <hi@0bdx.com> (0bdx.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0bdx/starter-vue-basic/issues"
+  },
+  "homepage": "https://github.com/0bdx/starter-vue-basic#readme"
+}
