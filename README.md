@@ -1,10 +1,10 @@
-# starter-vue-basic
+# starter-vue2-basic
 
-__A basic Vue 3 app starter, with a zero-build developer-experience.__
+__A basic Vue 2 app starter, with a zero-build developer-experience.__
 
 ∅&nbsp; __Version:__ 0.0.1  
-∅&nbsp; __Repo:__ <https://github.com/0bdx/starter-vue-basic>  
-∅&nbsp; __Homepage:__ <https://0bdx.com/starter-vue-basic>
+∅&nbsp; __Repo:__ <https://github.com/0bdx/starter-vue2-basic>  
+∅&nbsp; __Homepage:__ <https://0bdx.com/starter-vue2-basic>
 
 @TODO add an overview
 
@@ -12,7 +12,7 @@ __A basic Vue 3 app starter, with a zero-build developer-experience.__
 
 ## How to create a repo like this, from scratch
 
-### __1. Create the repo__
+### __1. Create the initial repo__
 
 1. At GitHub, click the ‘+’ icon, and ‘New repository’
 2. Name it, describe it, tick ‘Add a README file’, choose MIT license
@@ -22,7 +22,7 @@ __A basic Vue 3 app starter, with a zero-build developer-experience.__
 6. `git clone ` and paste something like ‘git@github.com:kim/my-app.git’
 7. `cd` into the new directory, eg `cd my-app`
 
-### __2. Create the .gitignore file__
+### __2. Add the .gitignore file__
 
 ```
 .DS_Store
@@ -30,7 +30,16 @@ node_modules
 node_modules.zip
 ```
 
-### __3. Create the package.json file__
+### __3. Add the initial package.json file__
+
+```sh
+npm init --yes
+sed -ix 's/: "1.0.0",/: "0.0.1",/' *.json
+sed -ix 's/"author": "/"author": "0bdx <hi@0bdx.com> (0bdx.com)/' *.json
+sed -ix 's/: "ISC",/: "MIT",/' *.json
+sed -ix 's/"main": "index.js"/"type": "module"/' *.json
+rm package.jsonx
+```
 
 1. Create a default __package.json__ file:  
    `npm init --yes`
@@ -45,13 +54,3 @@ node_modules.zip
    `sed -ix 's/"main": "index.js"/"type": "module"/' *.json`
 6. Delete the temporary __package.jsonx__ file:  
    `rm package.jsonx`
-
-Or as a single command you can copy-and-paste:
-```sh
-npm init --yes
-sed -ix 's/: "1.0.0",/: "0.0.1",/' *.json
-sed -ix 's/"author": "/"author": "0bdx <hi@0bdx.com> (0bdx.com)/' *.json
-sed -ix 's/: "ISC",/: "MIT",/' *.json
-sed -ix 's/"main": "index.js"/"type": "module"/' *.json
-rm package.jsonx
-```
